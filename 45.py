@@ -1,9 +1,9 @@
-carne = input("Digite F para filé duplo, A para alcatra e P para picanha: ")
+ca= input("Digite F para filé duplo, A para alcatra e P para picanha: ")
 peso = float(input("Digite quantos quilos dessa carne vai comprar: "))
-pagamento = input("Dinheiro ou cartão tabajara (5% de desconto)? D ou C: ")
+pato = input("Dinheiro ou cartão tabajara (5% de desconto)? D ou C: ")
 preco_total = 0
 
-print("\nHipermercado Tabajara\nCupom fiscal\n")
+print("Seu total ")
 if carne == "F" or carne == "f":
     print("Item: Filé Duplo")
     if peso > 5:
